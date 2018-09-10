@@ -1,3 +1,5 @@
+import {core} from './core'
+
 export function words(name) {
-    return `Hello, ${name}!`
+    return `Hello, ${core(name)}!`
 }
